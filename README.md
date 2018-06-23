@@ -1,0 +1,2 @@
+# Quick-N-Dirty-Sentiment-Analysis
+Suppose you got a CSV file with rows of distinct comments and 5-stars ratings on a business (e.g. a restaurant from Yelp).  This tool will process data from this CSV input file to (1) produce an output CSV file giving each row a "Sentiment Label" and "Sentiment Score", and (2) a statement on Command Prompt (Windows) describing the overall sentiment (Positive, Neutral, Negative) of the business.
