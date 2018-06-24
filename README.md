@@ -10,6 +10,7 @@ Note the extracted sentiment score from TextBlob is a floating number between -1
 ________________________________________
 
 <b>To run this tool, do the following:</b>
+
 1) Ensure you have Python 3 installed, as well as having "Pandas" and "Textblob" dependencies installed.  If the 2 dependencies are missing on your computer, on Command Prompt (Windows) run "pip3 install pandas" followed by "pip3 install textblob".
 
 2) Download the 2 files (SA1.py and Comments_SushiMaru.csv) and place them in the same folder.  
