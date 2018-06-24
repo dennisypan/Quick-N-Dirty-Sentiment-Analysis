@@ -18,7 +18,7 @@ for x in range(0, len(dataset)):
     UrlArry.append(dataset.iloc[x]["URL"])
 
 	
-    
+#Apply "TextBlob" on each comment string, and extract the sentiment polarity scroe of that comment.      
 for i in range(0, len(dataset)):
     temps = TextBlob(dataset.iloc[i]["COMMENT"])
     sentimentsScoreArry.append(temps.sentiment.polarity)
@@ -53,6 +53,7 @@ if(df1['Sentiment Score'].mean() == 0):
     
 if(df1['Sentiment Score'].mean() < 0):
     Label = "Negative"
-    
+
+#Display overall sentiment of the business
 print(df1.iloc[0]["Business"] + " SENTIMENT: " + str(df1['Sentiment Score'].mean()) + " | " + Label)    
 		
