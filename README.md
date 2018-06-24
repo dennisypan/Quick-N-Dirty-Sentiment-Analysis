@@ -5,7 +5,7 @@ The main engine of this tool is the TextBlob Python library.  In a nutshell, to 
 
 Note the extracted sentiment score from TextBlob is a floating number between -1 and 1.  If this score is > 0, that means the string is a "Positive" statement.  If this score is 0, that means the string is a "Neutral" statement.  If this score is < 0, the string is a "Negative" statement. 
 
-
+________________________________________
 
 <b>To run this tool, do the following:</b>
 1) Ensure you have Python 3 installed, as well as having "Pandas" and "Textblob" dependencies installed.  If the 2 dependencies are missing on your computer, on Command Prompt (Windows) run "pip3 install pandas" followed by "pip3 install textblob"
